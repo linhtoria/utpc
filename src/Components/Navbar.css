@@ -23,6 +23,7 @@ a:active {
     word-spacing: 1px;
     font-weight: 100;
     margin: 20px;
+    -webkit-font-smoothing: antialiased;
 }
 
 .Nav-container {
