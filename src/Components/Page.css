@@ -3,7 +3,21 @@
     font-size: 48px;
     margin-top: 16px;
     font-family: 'Poppins',sans-serif;
-    letter-spacing: 30px;
+    letter-spacing: 1px;
+    position: relative;
+    left: 500px;
+    top: 200px; 
+}
+
+.content {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 42px;
+    letter-spacing: 1px;
+    font-family: 'Poppins',sans-serif;
+    position: relative;
+    left: 500px;
+    top: 200px; 
 }
 
 

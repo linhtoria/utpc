@@ -7,7 +7,6 @@ class Home extends Component {
         <div>
         <h1 className="head">UTPC</h1>
         <a className="subtitle" href="/contact">ICPC & Competitive Programming.</a>
-        <footer className="footer">©Linh Nguyen</footer>
         </div> 
     );
   }

@@ -21,6 +21,7 @@ function App() {
            </Switch>
         </Router>
         <Navbar/> 
+        <footer className="footer">©Linh Nguyen</footer>
       </header>
     </div>
   );
