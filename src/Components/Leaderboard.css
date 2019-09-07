@@ -2,7 +2,10 @@ table {
   border-collapse: collapse;
   border: 2px solid rgb(200,200,200);
   letter-spacing: 1px;
-  width: 100%;  
+  width: 50%;  
+  position: fixed;
+  top: 22%;
+  left: 22%;
 }
 
 
@@ -12,5 +15,4 @@ td, th {
 }
 
 th {
-  background-color: rgb(235,235,235);
 }

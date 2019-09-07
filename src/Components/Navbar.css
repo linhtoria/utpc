@@ -28,7 +28,7 @@ a:active {
 
 .Nav-container {
     position: fixed;
-    left: 925px;
+    left: 50%;
     top: 10%;
     display: block;
 }
