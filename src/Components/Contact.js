@@ -7,7 +7,9 @@ class Contact extends Component {
           <p className="header">Contact</p>
           <ul className="content">
             <li>Kevin Chen - Co-President</li>
-            <li>Kevin Chen - Co-President</li> <li>Aditya Arjun - Logistics</li>
+            <li>Aditya Durvasula - Co-President</li>
+            <li>Antony Yun - Sponsorships & Finance</li>
+            <li>Aditya Arjun - Logistics</li>
             <li>Kevin Li - Tech</li>
             <li>Linh Nguyen - Outreach</li>
           </ul>
