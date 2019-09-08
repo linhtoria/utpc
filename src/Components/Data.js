@@ -11,16 +11,16 @@ const range = len => {
 
 const newPerson = () => {
   const statusChance = Math.random();
+  const c1 = Math.floor(Math.random() * 215);
+  const c2 = Math.floor(Math.random() * 215);
+  const sum = c1 + c2;
+ 
   return {
-    firstName: namor.generate({ words: 1, numbers: 0 }),
-    lastName: namor.generate({ words: 1, numbers: 0 }),
-    age: Math.floor(Math.random() * 30),
-    visits: Math.floor(Math.random() * 100),
-    progress: Math.floor(Math.random() * 100),
-    status:
-      statusChance > 0.66
-        ? "relationship"
-        : statusChance > 0.33 ? "complicated" : "single"
+    username: namor.generate({ words: 1, numbers: 0 }),
+    rank: Math.floor(Math.random() * 300) + 1,
+    c1: Math.floor(Math.random() * 215),
+    c2: Math.floor(Math.random() * 215),
+    total: sum,
   };
 };
 

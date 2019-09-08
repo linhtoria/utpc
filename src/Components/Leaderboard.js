@@ -14,19 +14,31 @@ class Leaderboard extends Component {
   render() {
     const { data } = this.state;
     return (
-      <div>
+      <div id="table">
         <ReactTable
           data={data}
           columns={[
             {
-                Header: 'First Name',
-                accessor: 'firstName'
+                Header: 'Rank',
+                accessor: 'rank'
             },
             {
-                Header: 'Last Name',
-                accessor: 'lastName'
-            }
-              
+                Header: 'Username',
+                accessor: 'username'
+            },
+            {
+                Header: 'C1',
+                accessor: 'c1'
+            },
+            {
+                Header: 'C2',
+                accessor: 'c2'
+            },
+
+            {
+                Header: 'Total',
+                accessor: 'total'
+            },
           ]}
           defaultPageSize={20}
           style={{
