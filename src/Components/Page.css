@@ -4,9 +4,9 @@
     margin-top: 16px;
     font-family: 'Poppins',sans-serif;
     letter-spacing: 1px;
-    position: relative;
-    left: 500px;
-    top: 200px; 
+    position: fixed;
+    left: 27%;
+    top: 20%; 
 }
 
 .content {
@@ -15,9 +15,9 @@
     line-height: 42px;
     letter-spacing: 1px;
     font-family: 'Poppins',sans-serif;
-    position: relative;
-    left: 500px;
-    top: 200px; 
+    position: relative; 
+    left: 27%;
+    top: 300px; 
 }
 
 

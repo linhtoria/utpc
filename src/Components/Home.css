@@ -1,12 +1,12 @@
 .head {
     font-family: 'Poppins',sans-serif;
     font-weight: 600;
-    font-size: 50px;
+    font-size: 55px;
     line-height: 40px;
     letter-spacing: 5px;
-    position: relative;
-    left: 500px;
-    top: 200px; 
+    position: fixed;
+    left: 27%;
+    top: 20%; 
 
 }
 
@@ -17,9 +17,22 @@
     line-height: 40px;
     word-spacing: 1px;
     position: relative;
-    left: 500px;
-    top: 200px; 
+    left: 27%;
+    top: 300px;
     -webkit-font-smoothing: antialiased;
+}
+
+.sponsor {
+    font-family: 'Poppins',sans-serif;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 40px;
+    word-spacing: 1px;
+    position: relative;
+    left: 60%;
+    top: 300px;
+    -webkit-font-smoothing: antialiased;
+
 }
 
 .footer {
@@ -29,8 +42,9 @@
     font-weight: 300;
     color: #9da6ba;
     display: block;
-    left: 500px;
-    top: 850px;
+    position: fixed;
+    left: 27%;
+    top: 90%;
 }
 
 a {
